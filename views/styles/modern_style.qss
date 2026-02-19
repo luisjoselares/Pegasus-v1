@@ -1,0 +1,47 @@
+/* Estilo Base para Ventanas */
+QMainWindow {
+    background-color: #121212;
+}
+
+/* Campos de entrada (Inputs) modernos */
+QLineEdit {
+    background-color: #1E1E1E;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 2px solid #6200EE; /* El morado corporativo al hacer click */
+}
+
+/* Botones principales con el morado Pegasus */
+QPushButton {
+    background-color: #6200EE;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+QPushButton:hover {
+    background-color: #3700B3; /* Morado más oscuro al pasar el mouse */
+}
+
+/* Estilo para los Labels (Texto) */
+QLabel {
+    color: #B3B3B3;
+    font-size: 14px;
+}
+#login_card {
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #333333;
+}
+
+QPushButton {
+    font-size: 14px;
+    height: 35px;
+}
